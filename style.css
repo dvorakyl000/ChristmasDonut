@@ -1,34 +1,42 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .donut-game {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  
-  .donut-count {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .auto-clicker {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .donut-multiplier {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .reset {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  header {
-    font-size: 28px;
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.donut-count {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.auto-clicker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donut-multiplier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.reset {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
   

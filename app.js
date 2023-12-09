@@ -3,10 +3,10 @@ const donutButton = document.querySelector(".donut-button");
 const clickerButton = document.querySelector(".clicker-button");
 const multiplierButton = document.querySelector(".multiplier-button");
 const resetButton = document.querySelector(".reset-button");
-const modalFred = document.querySelector(".fred");
+const modalSanta = document.querySelector(".modal-santa");
 const modalInspiration = document.querySelector(".modal-inspiration");
 const modalContact = document.querySelector(".modal-contact");
-const fredButton = document.querySelector(".about-fred");
+const santaButton = document.querySelector(".about-santa");
 const inspirationButton = document.querySelector(".inspiration");
 const contactMeButton = document.querySelector(".contact");
 
@@ -31,8 +31,8 @@ resetButton.addEventListener("click", () => {
   location.reload();
 });
 
-fredButton.onclick = function () {
-  modalFred.style.display = "block";
+santaButton.onclick = function () {
+  modalSanta.style.display = "block";
 };
 
 inspirationButton.onclick = function () {
@@ -44,8 +44,8 @@ contactMeButton.onclick = function () {
 };
 
 window.onclick = function (event) {
-  if (event.target == modalFred) {
-    modalFred.style.display = "none";
+  if (event.target == modalSanta) {
+    modalSanta.style.display = "none";
   }
   if (event.target == modalInspiration) {
     modalInspiration.style.display = "none";
